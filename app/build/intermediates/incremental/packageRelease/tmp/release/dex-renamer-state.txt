@@ -1,0 +1,4 @@
+#Sat Jan 11 16:59:38 CST 2020
+base.0=D\:\\me\\05.Android\\Project\\HelloAndroid\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

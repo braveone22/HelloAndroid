@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hello"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:28:5-83
+11-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:28:22-64
+12
+13    <application
+13-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:6:5-26:19
+14        android:allowBackup="true"
+14-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\zhangjinfu\.gradle\caches\transforms-2\files-2.1\292864c6d50f98870bb1ff3a00144dd1\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+16-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:7:9-34
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="琳琳"
+18-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:10:9-27
+19        android:roundIcon="@mipmap/ic_launcher"
+19-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:11:9-48
+20        android:supportsRtl="true"
+20-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/AppTheme" >
+21-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity android:name="com.example.hello.activity.RecyclerActivity" />
+22-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:15:9-72
+22-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:15:19-60
+23        <activity android:name="com.example.hello.activity.ImageActivity" />
+23-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:16:9-60
+23-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:16:19-57
+24        <activity android:name="com.example.hello.activity.SecondActivity" />
+24-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:17:9-61
+24-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:17:19-58
+25        <activity android:name="com.example.hello.MainActivity" >
+25-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:18:9-24:20
+25-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:18:19-47
+26            <intent-filter>
+26-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:19:13-23:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:20:17-69
+27-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:20:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:22:17-77
+29-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:22:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.example.hello.activity.MyCreateActivity" />
+32-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:25:9-63
+32-->D:\me\05.Android\Project\HelloAndroid\app\src\main\AndroidManifest.xml:25:19-60
+33
+34        <provider
+34-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\zhangjinfu\.gradle\caches\transforms-2\files-2.1\5db7a37757d5d29450143e22192dcd8a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+35-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\zhangjinfu\.gradle\caches\transforms-2\files-2.1\5db7a37757d5d29450143e22192dcd8a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+36            android:authorities="com.example.hello.lifecycle-process"
+36-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\zhangjinfu\.gradle\caches\transforms-2\files-2.1\5db7a37757d5d29450143e22192dcd8a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+37            android:exported="false"
+37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\zhangjinfu\.gradle\caches\transforms-2\files-2.1\5db7a37757d5d29450143e22192dcd8a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+38            android:multiprocess="true" />
+38-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\zhangjinfu\.gradle\caches\transforms-2\files-2.1\5db7a37757d5d29450143e22192dcd8a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+39    </application>
+40
+41</manifest>
